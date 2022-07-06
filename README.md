@@ -5,4 +5,27 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 
 ## Results
 
+### Preprocessing the Data for PCA
+![original_crypto_df](https://user-images.githubusercontent.com/99751636/177620366-25e8668e-a579-47a7-9f62-1dc2d2b2bd3c.png)
+
+* We read the crypto_data.csv file into a Pandas DataFrame.
+* Original DataFrame had 1252 rows and 6 columns.
+
+![preprocessed_crypto_df](https://user-images.githubusercontent.com/99751636/177620591-15982b11-31c7-416e-bb5c-70c1f3b73b48.png)
+
+* All cyrptocurrencies that weren't being traded were removed.
+* Only cryptocurrencies that had a working algorithm were kept.
+* Rows with null values were removed.
+* Only rows where cryptocurrency were mined were kept.
+* "Coin Name" column was put into sepraate DataFrame and dropped from current one.
+* preprocessed DataFrame had 532 rows and 5 columns.
+
+![standardized_crypto_object](https://user-images.githubusercontent.com/99751636/177621301-301430e6-8f48-4388-935b-9582006256fb.png)
+
+* Text features in the DataFrame were converted to integers using get_dummies(), raising the column count from 5 to 98.
+* Data was standardized using StandardScaler(). 
+* The above array is the first object in the DataFrame, as the 98 entries correspond to the 98 coulmns.
+
+### Reducing Data Dimensions Using PCA
+
 ## Summary
