@@ -30,8 +30,18 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 
 ![PCA_crypto_df](https://user-images.githubusercontent.com/99751636/177622027-46c95119-e21b-4451-97e4-2b391a71807e.png)
 
-* Principal Component Analysis (PCA) reduces our dimensions from 98 to 3.
+* Principal Component Analysis (PCA) reduced our dimensions from 98 to 3.
 
 ### Clustering Crytocurrencies Using K-Means
+
+![elbow_curve](https://user-images.githubusercontent.com/99751636/177622484-bcd6812a-0546-4984-8adc-b7a91ab2839c.png)
+
+* Elbow curve was created to find the ideal value for of K clusters, which appears to be K = 4.
+
+![clustered_df](https://user-images.githubusercontent.com/99751636/177623162-f9d42997-10f3-4be1-96d6-69fd25035d8e.png)
+
+* New DataFrame was formed from concatenating preprocessed crypto DataFrame with the PCA DataFrame, then added the "Coin Name" and "Class" columns.
+
+### Visualizing Cryptocurrencies Results
 
 ## Summary
