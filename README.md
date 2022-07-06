@@ -28,4 +28,10 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 
 ### Reducing Data Dimensions Using PCA
 
+![PCA_crypto_df](https://user-images.githubusercontent.com/99751636/177622027-46c95119-e21b-4451-97e4-2b391a71807e.png)
+
+* Principal Component Analysis (PCA) reduces our dimensions from 98 to 3.
+
+### Clustering Crytocurrencies Using K-Means
+
 ## Summary
