@@ -17,8 +17,8 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 * Only cryptocurrencies that had a working algorithm were kept.
 * Rows with null values were removed.
 * Only rows where cryptocurrency were mined were kept.
-* "Coin Name" column was put into sepraate DataFrame and dropped from current one.
-* preprocessed DataFrame had 532 rows and 5 columns.
+* "Coin Name" column was put into separate DataFrame and dropped from current one.
+* Preprocessed DataFrame had 532 rows and 5 columns.
 
 ![standardized_crypto_object](https://user-images.githubusercontent.com/99751636/177621301-301430e6-8f48-4388-935b-9582006256fb.png)
 
@@ -30,7 +30,7 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 
 ![PCA_crypto_df](https://user-images.githubusercontent.com/99751636/177622027-46c95119-e21b-4451-97e4-2b391a71807e.png)
 
-* Principal Component Analysis (PCA) reduced our dimensions from 98 to 3.
+* Principal Component Analysis (PCA) reduced the dimensions from 98 to 3.
 
 ### Clustering Crytocurrencies Using K-Means
 
@@ -50,7 +50,7 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 
 ![crypto_table](https://user-images.githubusercontent.com/99751636/177623644-6b876658-570d-4a27-9fbf-9527cfb47236.png)
 
-* As per Accountability Accounting's original request, a table was created that allows the user to sort by Algorithm, Proof Type, Total Coin Supply, Total Coins Mined, and Class. 
+* A table was created that allows the user to sort by Algorithm, Proof Type, Total Coin Supply, Total Coins Mined, and Class. 
 * The "Class" column refers to one of the four clusters this prticular coin has been placed into by the K-means algorithm.
 
 ![scatter](https://user-images.githubusercontent.com/99751636/177624303-84eaf5c3-3f25-46d4-bc04-fc811f80333f.png)
