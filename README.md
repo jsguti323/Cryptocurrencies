@@ -44,4 +44,15 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 
 ### Visualizing Cryptocurrencies Results
 
-## Summary
+![3D_scatter](https://user-images.githubusercontent.com/99751636/177623518-19ae51b6-833e-4017-ad93-30336249d9ef.png)
+
+* A 3D-Scatter was created using the PCA data and the clusters
+
+![crypto_table](https://user-images.githubusercontent.com/99751636/177623644-6b876658-570d-4a27-9fbf-9527cfb47236.png)
+
+* As per Accountability Accounting's original request, a table was created that allows the user to sort by Algorithm, Proof Type, Total Coin Supply, Total Coins Mined, and Class. 
+* The "Class" column refers to one of the four clusters this prticular coin has been placed into by the K-means algorithm.
+
+![scatter](https://user-images.githubusercontent.com/99751636/177624303-84eaf5c3-3f25-46d4-bc04-fc811f80333f.png)
+
+* Scatter plot was created where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point
